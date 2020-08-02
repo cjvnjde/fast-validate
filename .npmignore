@@ -1,0 +1,7 @@
+.idea
+fast-validate.iml
+*.cache
+*dist
+**node_modules
+*example
+*.gitignore

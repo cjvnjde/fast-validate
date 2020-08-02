@@ -1,0 +1,11 @@
+{
+  "name": "fast-validate",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "keywords": [
+    "validator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
