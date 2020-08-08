@@ -1,11 +1,20 @@
 {
   "name": "fast-validate",
-  "version": "0.1.0",
-  "main": "src/index.js",
+  "version": "0.1.1",
+  "main": "dist/validator.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "keywords": [
     "validator"
   ],
-  "author": "",
+  "author": "Vitalij Nykyforenko <vitalij.nykyforenko@gmail.com>",
+  "repository": "git@github.com:cjvnjde/fast-validate.git",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "terser-webpack-plugin": "4.0.0"
+  }
 }

@@ -1,10 +1,10 @@
-let validators = {}
+let validators = {};
 
 let cache = {};
 
 let locale = '';
 
-let dictionary = {}
+let dictionary = {};
 
 function transformRule(rule) {
   const [ruleName, params] = rule.split(':');
@@ -13,12 +13,12 @@ function transformRule(rule) {
     const slittedParams = params.split(',');
 
     if (slittedParams.length === 1) {
-      return {[ruleName]: slittedParams[0]}
+      return {[ruleName]: slittedParams[0]};
     }
 
-    return {[ruleName]: slittedParams}
+    return {[ruleName]: slittedParams};
   } else {
-    return {[ruleName]: true}
+    return {[ruleName]: true};
   }
 }
 

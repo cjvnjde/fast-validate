@@ -1,7 +1,10 @@
 .idea
-fast-validate.iml
-*.cache
-*dist
-**node_modules
 *example
-*.gitignore
+**node_modules
+*src
+.gitignore
+.npmignore
+fast-validate.iml
+*webpack.config.js
+*.cache
+
