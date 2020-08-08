@@ -43,6 +43,10 @@ function validate(value, rules) {
   }
 
   Object.entries(objRules).forEach(([ruleName, ruleValue]) => {
+    if (!ruleName || !locale) {
+      return [];
+    }
+
     const validationResults = validators[ruleName](value, ruleValue);
 
     if (

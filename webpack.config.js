@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "validator.js",
+    libraryTarget: "commonjs2",
   },
   optimization: {
     minimize: true,
